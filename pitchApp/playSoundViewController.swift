@@ -48,12 +48,12 @@ class playSoundViewController: RecordSoundViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-       /* fastButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+        fastButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         slowButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         highPitchButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         lowPitchButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         echoButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        reverbButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit*/
+        reverbButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
 
         setupAudio()
     }
